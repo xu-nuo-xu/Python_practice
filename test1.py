@@ -6,4 +6,4 @@ def log(func):
 @log
 def now(arg1,arg2):
     print('2020/8/1',arg1,arg2)
-now('Lisa','jisoo')
+now('first','second')
