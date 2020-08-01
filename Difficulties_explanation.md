@@ -1,3 +1,17 @@
+<!-- TOC -->
+
+- [装饰器(decorator)](#装饰器decorator)
+- [type()函数创建类](#type函数创建类)
+- [定制类](#定制类)
+    - [\_\_slots__](#\_\_slots__)
+    - [@property](#property)
+    - [\_\_str__](#\_\_str__)
+    - [\_\_iter__与\_\_next__](#\_\_iter__与\_\_next__)
+    - [\_\_getitem__](#\_\_getitem__)
+    - [\_\_getattr__](#\_\_getattr__)
+    - [\_\_call__](#\_\_call__)
+
+<!-- /TOC -->
 # 装饰器(decorator)
 ```python
 #返回函数
