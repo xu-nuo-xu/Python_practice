@@ -1,9 +1,9 @@
-def log(func):
-    def wrapper(*args,**kw):
-        print('call %s'%func.__name__)
-        return func(*args,**kw)
-    return wrapper
-@log
-def now(arg1,arg2):
-    print('2020/8/1',arg1,arg2)
-now('first','second')
+class Student(object):
+    def __init__(self, name):
+        self.name = name
+
+    def __call__(self):
+        print('My name is %s.' % self.name)
+s = Student('Michael')
+print(callable(s))
+print(callable(Student))
