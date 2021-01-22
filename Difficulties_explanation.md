@@ -10,6 +10,7 @@
     - [\_\_getitem__](#\_\_getitem__)
     - [\_\_getattr__](#\_\_getattr__)
     - [\_\_call__](#\_\_call__)
+- [关于Python中的self](#关于python中的self)
 
 <!-- /TOC -->
 # 装饰器(decorator)
@@ -290,3 +291,5 @@ s = Student('Michael')
 print(callable(s))          #output: True
 print(callable(Student))    #output: True
 ```
+# 关于Python中的self
+>[[csdn]](https://blog.csdn.net/xrinosvip/article/details/89647884)
